@@ -29,7 +29,7 @@ namespace publicAcountOnDataBase.ViewModels
         {
            
 
-            if(userName.Length<8 && passwords.Length < 8)
+            if(userName.Length<8 || passwords.Length < 8)
             {
                 MessageBox.Show("You must have atleast 8 character with special character", "Information", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;

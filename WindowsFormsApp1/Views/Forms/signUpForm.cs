@@ -42,9 +42,12 @@ namespace WindowsFormsApp1.Views.Forms
                         //Open mainform
                         Views.Forms.mainPageForm mainFrm = new mainPageForm();
                         publicAcountOnDataBase.Models.ClosingForm close = new publicAcountOnDataBase.Models.ClosingForm();
+
+
+                        MessageBox.Show("Account create success\t", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                         close.ClosingFormOnThread(this, mainFrm);
 
-                        MessageBox.Show("Account create success\t", "Information", MessageBoxButtons.OK);
                     }
                     
                 }

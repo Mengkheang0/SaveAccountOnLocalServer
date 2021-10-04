@@ -25,15 +25,19 @@ namespace publicAcountOnDataBase.ViewModels
                     {
 
                         string[] txts = File.ReadAllLines(file);
-
-                        //index 1 is my passwords data
-                        string Passwords = txts[1];
-                        if(passwords == Passwords)
+                        if(txts.Length > 1)
                         {
-                            found = true;
-                            break;
+                            //index 1 is my passwords data
+                            string Passwords = txts[1];
+                            if (passwords == Passwords)
+                            {
+                                found = true;
+                                break;
 
+                            }
                         }
+
+                      
 
                     }
                     else
@@ -44,8 +48,7 @@ namespace publicAcountOnDataBase.ViewModels
 
                 if (found)
                 {
-                    MessageBox.Show("\tLogin succced !!\t", "information", MessageBoxButtons.OK);
-
+                    MessageBox.Show("\tLogin succced !!\t", "information", MessageBoxButtons.OK,MessageBoxIcon.Information);
 
                     return true;
 
