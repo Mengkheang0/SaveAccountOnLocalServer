@@ -88,6 +88,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Views\AcountSetting\User_Setting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\AcountSetting\User_Setting.Designer.cs">
+      <DependentUpon>User_Setting.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Forms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +126,9 @@
     <Compile Include="Views\Forms\signUpForm.Designer.cs">
       <DependentUpon>signUpForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\AcountSetting\User_Setting.resx">
+      <DependentUpon>User_Setting.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Controls\AccountPlateForm.resx">
       <DependentUpon>AccountPlateForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -167,6 +176,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\a901df9ac69b00f650e9942d37fa6658.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_male_circle_60px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-gradienta-7135037.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-elijah-o%27donnell-5418830.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

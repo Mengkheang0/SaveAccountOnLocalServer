@@ -15,6 +15,9 @@ namespace WindowsFormsApp1.Views.Forms
         public mainPageForm()
         {
             InitializeComponent();
+            Views.AcountSetting.User_Setting u = new AcountSetting.User_Setting(this.Left+100,0,"Panha","Panha","horser123",true);
+            this.Controls.Add(u);
+
         }
     }
 }

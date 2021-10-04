@@ -11,6 +11,7 @@ namespace publicAcountOnDataBase.ViewModels
 {
     public class CreateFile
     {
+        public string UserDataPath { get; private set; }
         public void CreateFileInSpecificFolder(string folderName,string fileName)
         {
             //form : C:\Data\
@@ -24,7 +25,7 @@ namespace publicAcountOnDataBase.ViewModels
             //Creat File
             File.CreateText(FileTextLocation);
         }
-        public void AddDataToFile(string folderName,string fileName,List<string> Content)
+        public string AddDataToFile(string folderName,string fileName,List<string> Content)
         {
             //form : C:\Data\
             string localPath = System.AppDomain.CurrentDomain.BaseDirectory;
@@ -34,6 +35,7 @@ namespace publicAcountOnDataBase.ViewModels
 
 
             string FileTextLocation = folderPath + "\\" + fileName + ".txt";
+            UserDataPath = FileTextLocation;
             //Creat File
             using (StreamWriter writer = new StreamWriter(FileTextLocation))
             {
@@ -49,7 +51,7 @@ namespace publicAcountOnDataBase.ViewModels
                 }
             }
 
-                
+            return UserDataPath;   
 
            
         }

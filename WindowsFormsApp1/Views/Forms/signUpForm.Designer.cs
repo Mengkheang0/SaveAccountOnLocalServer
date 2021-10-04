@@ -43,6 +43,8 @@ namespace WindowsFormsApp1.Views.Forms
             this.linkLb = new System.Windows.Forms.Label();
             this.showPs = new Guna.UI2.WinForms.Guna2CustomCheckBox();
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2GradientPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2HtmlLabel1
@@ -50,7 +52,7 @@ namespace WindowsFormsApp1.Views.Forms
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("SF UI Display", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(192, 112);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(499, 232);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(69, 20);
             this.guna2HtmlLabel1.TabIndex = 0;
@@ -58,6 +60,7 @@ namespace WindowsFormsApp1.Views.Forms
             // 
             // usernameBox
             // 
+            this.usernameBox.BackColor = System.Drawing.Color.Transparent;
             this.usernameBox.BorderRadius = 4;
             this.usernameBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.usernameBox.DefaultText = "";
@@ -73,7 +76,7 @@ namespace WindowsFormsApp1.Views.Forms
             this.usernameBox.ForeColor = System.Drawing.Color.White;
             this.usernameBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.usernameBox.HoverState.Parent = this.usernameBox;
-            this.usernameBox.Location = new System.Drawing.Point(276, 98);
+            this.usernameBox.Location = new System.Drawing.Point(583, 218);
             this.usernameBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.usernameBox.Name = "usernameBox";
             this.usernameBox.PasswordChar = '\0';
@@ -88,7 +91,7 @@ namespace WindowsFormsApp1.Views.Forms
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("SF UI Display", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(192, 175);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(499, 295);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(67, 20);
             this.guna2HtmlLabel2.TabIndex = 0;
@@ -96,6 +99,7 @@ namespace WindowsFormsApp1.Views.Forms
             // 
             // passwordBox
             // 
+            this.passwordBox.BackColor = System.Drawing.Color.Transparent;
             this.passwordBox.BorderRadius = 4;
             this.passwordBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.passwordBox.DefaultText = "";
@@ -111,7 +115,7 @@ namespace WindowsFormsApp1.Views.Forms
             this.passwordBox.ForeColor = System.Drawing.Color.White;
             this.passwordBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.passwordBox.HoverState.Parent = this.passwordBox;
-            this.passwordBox.Location = new System.Drawing.Point(276, 162);
+            this.passwordBox.Location = new System.Drawing.Point(583, 282);
             this.passwordBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.passwordBox.Name = "passwordBox";
             this.passwordBox.PasswordChar = '\0';
@@ -127,7 +131,7 @@ namespace WindowsFormsApp1.Views.Forms
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("SF UI Display", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(140, 239);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(447, 359);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(122, 20);
             this.guna2HtmlLabel3.TabIndex = 0;
@@ -135,6 +139,7 @@ namespace WindowsFormsApp1.Views.Forms
             // 
             // con_password
             // 
+            this.con_password.BackColor = System.Drawing.Color.Transparent;
             this.con_password.BorderRadius = 4;
             this.con_password.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.con_password.DefaultText = "";
@@ -150,7 +155,7 @@ namespace WindowsFormsApp1.Views.Forms
             this.con_password.ForeColor = System.Drawing.Color.White;
             this.con_password.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.con_password.HoverState.Parent = this.con_password;
-            this.con_password.Location = new System.Drawing.Point(276, 228);
+            this.con_password.Location = new System.Drawing.Point(583, 348);
             this.con_password.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.con_password.Name = "con_password";
             this.con_password.PasswordChar = '\0';
@@ -166,7 +171,7 @@ namespace WindowsFormsApp1.Views.Forms
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("SF UI Display", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(346, 12);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(646, 72);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(96, 31);
             this.guna2HtmlLabel4.TabIndex = 0;
@@ -174,6 +179,7 @@ namespace WindowsFormsApp1.Views.Forms
             // 
             // signUpBt
             // 
+            this.signUpBt.BackColor = System.Drawing.Color.Transparent;
             this.signUpBt.BorderRadius = 4;
             this.signUpBt.BorderThickness = 1;
             this.signUpBt.CheckedState.Parent = this.signUpBt;
@@ -186,7 +192,7 @@ namespace WindowsFormsApp1.Views.Forms
             this.signUpBt.Font = new System.Drawing.Font("SF UI Display", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.signUpBt.ForeColor = System.Drawing.Color.White;
             this.signUpBt.HoverState.Parent = this.signUpBt;
-            this.signUpBt.Location = new System.Drawing.Point(310, 345);
+            this.signUpBt.Location = new System.Drawing.Point(617, 474);
             this.signUpBt.Name = "signUpBt";
             this.signUpBt.ShadowDecoration.Parent = this.signUpBt;
             this.signUpBt.Size = new System.Drawing.Size(180, 45);
@@ -205,7 +211,7 @@ namespace WindowsFormsApp1.Views.Forms
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("SF UI Display", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.Gray;
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(335, 433);
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(642, 562);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
             this.guna2HtmlLabel5.Size = new System.Drawing.Size(133, 16);
             this.guna2HtmlLabel5.TabIndex = 3;
@@ -214,9 +220,10 @@ namespace WindowsFormsApp1.Views.Forms
             // linkLb
             // 
             this.linkLb.AutoSize = true;
+            this.linkLb.BackColor = System.Drawing.Color.Transparent;
             this.linkLb.Cursor = System.Windows.Forms.Cursors.Hand;
             this.linkLb.ForeColor = System.Drawing.Color.Maroon;
-            this.linkLb.Location = new System.Drawing.Point(369, 464);
+            this.linkLb.Location = new System.Drawing.Point(676, 606);
             this.linkLb.Name = "linkLb";
             this.linkLb.Size = new System.Drawing.Size(52, 15);
             this.linkLb.TabIndex = 4;
@@ -225,12 +232,13 @@ namespace WindowsFormsApp1.Views.Forms
             // 
             // showPs
             // 
+            this.showPs.BackColor = System.Drawing.Color.Transparent;
             this.showPs.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.showPs.CheckedState.BorderRadius = 2;
             this.showPs.CheckedState.BorderThickness = 0;
             this.showPs.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.showPs.CheckedState.Parent = this.showPs;
-            this.showPs.Location = new System.Drawing.Point(593, 285);
+            this.showPs.Location = new System.Drawing.Point(900, 405);
             this.showPs.Name = "showPs";
             this.showPs.ShadowDecoration.Parent = this.showPs;
             this.showPs.Size = new System.Drawing.Size(15, 15);
@@ -248,36 +256,52 @@ namespace WindowsFormsApp1.Views.Forms
             this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel6.Font = new System.Drawing.Font("SF UI Display", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(490, 285);
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(797, 405);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
             this.guna2HtmlLabel6.Size = new System.Drawing.Size(94, 16);
             this.guna2HtmlLabel6.TabIndex = 6;
             this.guna2HtmlLabel6.Text = "Show Passwords";
             // 
+            // guna2GradientPanel1
+            // 
+            this.guna2GradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.guna2GradientPanel1.BorderRadius = 8;
+            this.guna2GradientPanel1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dot;
+            this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel4);
+            this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel6);
+            this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel1);
+            this.guna2GradientPanel1.Controls.Add(this.showPs);
+            this.guna2GradientPanel1.Controls.Add(this.usernameBox);
+            this.guna2GradientPanel1.Controls.Add(this.linkLb);
+            this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel2);
+            this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel5);
+            this.guna2GradientPanel1.Controls.Add(this.passwordBox);
+            this.guna2GradientPanel1.Controls.Add(this.signUpBt);
+            this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel3);
+            this.guna2GradientPanel1.Controls.Add(this.con_password);
+            this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(10)))));
+            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(14)))), ((int)(((byte)(79)))));
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(47, 33);
+            this.guna2GradientPanel1.Name = "guna2GradientPanel1";
+            this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(1402, 832);
+            this.guna2GradientPanel1.TabIndex = 0;
+            // 
             // signUpForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(19)))), ((int)(((byte)(26)))));
-            this.ClientSize = new System.Drawing.Size(800, 500);
-            this.Controls.Add(this.guna2HtmlLabel6);
-            this.Controls.Add(this.showPs);
-            this.Controls.Add(this.linkLb);
-            this.Controls.Add(this.guna2HtmlLabel5);
-            this.Controls.Add(this.signUpBt);
-            this.Controls.Add(this.con_password);
-            this.Controls.Add(this.guna2HtmlLabel4);
-            this.Controls.Add(this.guna2HtmlLabel3);
-            this.Controls.Add(this.passwordBox);
-            this.Controls.Add(this.guna2HtmlLabel2);
-            this.Controls.Add(this.usernameBox);
-            this.Controls.Add(this.guna2HtmlLabel1);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(25)))), ((int)(((byte)(31)))));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1500, 900);
+            this.Controls.Add(this.guna2GradientPanel1);
             this.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "signUpForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "signUpControl";
+            this.guna2GradientPanel1.ResumeLayout(false);
+            this.guna2GradientPanel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -296,5 +320,6 @@ namespace WindowsFormsApp1.Views.Forms
         private System.Windows.Forms.Label linkLb;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
         private Guna.UI2.WinForms.Guna2CustomCheckBox showPs;
+        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
     }
 }

@@ -37,7 +37,7 @@ namespace WindowsFormsApp1.Views.Forms
                     if (test)
                     {
                         List<string> PersonData = new List<string>() { usernameBox.Text, passwordBox.Text, con_password.Text };
-                        file.AddDataToFile("LogIn_Data", usernameBox.Text, PersonData);
+                        file.AddDataToFile($"LogIn_Data", usernameBox.Text, PersonData);
 
                         //Open mainform
                         Views.Forms.mainPageForm mainFrm = new mainPageForm();

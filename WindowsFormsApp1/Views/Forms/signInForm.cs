@@ -14,18 +14,19 @@ namespace WindowsFormsApp1.Views.Forms
 {
     public partial class signInForm : Form
     {
-        
+
+        CreateFile cfile = new CreateFile();
         public signInForm()
         {
             InitializeComponent();
 
         }
-        string _allDataPath = @"C:\Users\2\Desktop\ResumeProject\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LogIn_Data";
         List<string> strDataFromFolder = new List<string>();
         bool succes;
 
         private void createBt_Click(object sender, EventArgs e)
         {
+            string _allDataPath = @"C:\Users\2\Desktop\ResumeProject\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LogIn_Data";
             succes = CheckInputWithFileData._CheckInputWithData(usernameBox.Text,passwordBox.Text, _allDataPath);
 
             if(succes)
