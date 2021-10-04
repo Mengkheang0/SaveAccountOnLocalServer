@@ -36,8 +36,7 @@ namespace WindowsFormsApp1.Views.Forms
 
                     if (test)
                     {
-                        MessageBox.Show("ACCESS");
-                        /*List<string> PersonData = new List<string>() { usernameBox.Text, passwordBox.Text, con_password.Text };
+                        List<string> PersonData = new List<string>() { usernameBox.Text, passwordBox.Text, con_password.Text };
                         file.AddDataToFile("LogIn_Data", usernameBox.Text, PersonData);
 
                         //Open mainform
@@ -45,7 +44,7 @@ namespace WindowsFormsApp1.Views.Forms
                         publicAcountOnDataBase.Models.ClosingForm close = new publicAcountOnDataBase.Models.ClosingForm();
                         close.ClosingFormOnThread(this, mainFrm);
 
-                        MessageBox.Show("Account create success\t", "Information", MessageBoxButtons.OK);*/
+                        MessageBox.Show("Account create success\t", "Information", MessageBoxButtons.OK);
                     }
                     
                 }
