@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerCloud", "WindowsFormsApp1\ServerCloud.csproj", "{728BE7D0-C424-4EBA-B0DE-8EF298797FA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "publicAcountOnDataBase", "publicAcountOnDataBase\publicAcountOnDataBase.csproj", "{5F1C080C-3066-47C2-8682-47673C3B69B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{728BE7D0-C424-4EBA-B0DE-8EF298797FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728BE7D0-C424-4EBA-B0DE-8EF298797FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728BE7D0-C424-4EBA-B0DE-8EF298797FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728BE7D0-C424-4EBA-B0DE-8EF298797FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F1C080C-3066-47C2-8682-47673C3B69B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1C080C-3066-47C2-8682-47673C3B69B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1C080C-3066-47C2-8682-47673C3B69B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1C080C-3066-47C2-8682-47673C3B69B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A52FB53B-B32D-46ED-87BE-88884D601438}
+	EndGlobalSection
+EndGlobal
